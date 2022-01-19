@@ -1,0 +1,26 @@
+._error{
+    box-shadow: 0 0 5px rgb(230, 86, 86);
+    position: relative;
+}
+
+/* .w-block{
+    position: relative;
+} */
+
+.preloader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: preloader infinite 2s linear;
+    display: none;
+}
+
+@keyframes preloader {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+}
