@@ -82,7 +82,7 @@ function policeTest(input) {
 }
 
 function nameTest(input) {
-    return /[^\d|\s|\W]\s*-?\s*[^\d|\s|\W]/.test(input.value);
+    return /[^\d|\s]\s*-?\s*[^\d|\s]/.test(input.value);
 }
 
 function dobTest(input) {
